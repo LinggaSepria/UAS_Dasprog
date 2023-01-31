@@ -45,7 +45,7 @@ int main() {
   char ulang;
 
   do {
-    cout << "================ Sistem Penyewaan Mobil | Rp 50.000.000 / 12 jam ================\n\n";
+    cout << "================ Sistem Penyewaan Kendaraan | Rp 50.000.000 / 12 jam ================\n\n";
     for (int i = 0; i < daftarMobil.size(); i++) {
     cout << i + 1 << ". " << daftarMobil[i].model << " (" << daftarMobil[i].tahun << ") - " << daftarMobil[i].merek << " | " << daftarMobil[i].platNomor << " : " << (!daftarMobil[i].disewa ? "Tersedia" : "Telah disewa") << "\n";
     }
